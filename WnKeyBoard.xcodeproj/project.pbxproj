@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9230D54020045D25006397FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D53F20045D25006397FC /* AppDelegate.m */; };
+		9230D54320045D25006397FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D54220045D25006397FC /* ViewController.m */; };
+		9230D54620045D25006397FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9230D54420045D25006397FC /* Main.storyboard */; };
+		9230D54820045D25006397FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9230D54720045D25006397FC /* Assets.xcassets */; };
+		9230D54B20045D25006397FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9230D54920045D25006397FC /* LaunchScreen.storyboard */; };
+		9230D54E20045D25006397FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D54D20045D25006397FC /* main.m */; };
+		9230D56020045D6D006397FC /* PasswordTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D55520045D6C006397FC /* PasswordTextField.m */; };
+		9230D56120045D6D006397FC /* NumPswTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D55820045D6C006397FC /* NumPswTextField.m */; };
+		9230D56220045D6D006397FC /* keyBoard.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9230D55A20045D6C006397FC /* keyBoard.plist */; };
+		9230D56320045D6D006397FC /* PassTextFild.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D55C20045D6C006397FC /* PassTextFild.m */; };
+		9230D56420045D6D006397FC /* PayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D55D20045D6D006397FC /* PayView.m */; };
+		9230D568200460FE006397FC /* WnKeyboardFlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D567200460FE006397FC /* WnKeyboardFlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9230D53B20045D25006397FC /* WnKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WnKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9230D53E20045D25006397FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9230D53F20045D25006397FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9230D54120045D25006397FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9230D54220045D25006397FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9230D54520045D25006397FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9230D54720045D25006397FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9230D54A20045D25006397FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9230D54C20045D25006397FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9230D54D20045D25006397FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9230D55520045D6C006397FC /* PasswordTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordTextField.m; sourceTree = "<group>"; };
+		9230D55720045D6C006397FC /* PayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayView.h; sourceTree = "<group>"; };
+		9230D55820045D6C006397FC /* NumPswTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumPswTextField.m; sourceTree = "<group>"; };
+		9230D55920045D6C006397FC /* PasswordTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordTextField.h; sourceTree = "<group>"; };
+		9230D55A20045D6C006397FC /* keyBoard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = keyBoard.plist; sourceTree = "<group>"; };
+		9230D55B20045D6C006397FC /* NumPswTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumPswTextField.h; sourceTree = "<group>"; };
+		9230D55C20045D6C006397FC /* PassTextFild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassTextFild.m; sourceTree = "<group>"; };
+		9230D55D20045D6D006397FC /* PayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayView.m; sourceTree = "<group>"; };
+		9230D55F20045D6D006397FC /* PassTextFild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassTextFild.h; sourceTree = "<group>"; };
+		9230D566200460FE006397FC /* WnKeyboardFlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WnKeyboardFlugin.h; sourceTree = "<group>"; };
+		9230D567200460FE006397FC /* WnKeyboardFlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WnKeyboardFlugin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9230D53820045D25006397FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9230D53220045D25006397FC = {
+			isa = PBXGroup;
+			children = (
+				9230D53D20045D25006397FC /* WnKeyboard */,
+				9230D53C20045D25006397FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9230D53C20045D25006397FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9230D53B20045D25006397FC /* WnKeyBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9230D53D20045D25006397FC /* WnKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9230D55420045D5C006397FC /* keyboard */,
+				9230D53E20045D25006397FC /* AppDelegate.h */,
+				9230D53F20045D25006397FC /* AppDelegate.m */,
+				9230D54120045D25006397FC /* ViewController.h */,
+				9230D54220045D25006397FC /* ViewController.m */,
+				9230D54420045D25006397FC /* Main.storyboard */,
+				9230D54720045D25006397FC /* Assets.xcassets */,
+				9230D54920045D25006397FC /* LaunchScreen.storyboard */,
+				9230D54C20045D25006397FC /* Info.plist */,
+				9230D54D20045D25006397FC /* main.m */,
+			);
+			path = WnKeyboard;
+			sourceTree = "<group>";
+		};
+		9230D55420045D5C006397FC /* keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9230D55B20045D6C006397FC /* NumPswTextField.h */,
+				9230D55820045D6C006397FC /* NumPswTextField.m */,
+				9230D55A20045D6C006397FC /* keyBoard.plist */,
+				9230D55F20045D6D006397FC /* PassTextFild.h */,
+				9230D55C20045D6C006397FC /* PassTextFild.m */,
+				9230D55920045D6C006397FC /* PasswordTextField.h */,
+				9230D55520045D6C006397FC /* PasswordTextField.m */,
+				9230D55720045D6C006397FC /* PayView.h */,
+				9230D55D20045D6D006397FC /* PayView.m */,
+				9230D566200460FE006397FC /* WnKeyboardFlugin.h */,
+				9230D567200460FE006397FC /* WnKeyboardFlugin.m */,
+			);
+			path = keyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9230D53A20045D25006397FC /* WnKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9230D55120045D25006397FC /* Build configuration list for PBXNativeTarget "WnKeyBoard" */;
+			buildPhases = (
+				9230D53720045D25006397FC /* Sources */,
+				9230D53820045D25006397FC /* Frameworks */,
+				9230D53920045D25006397FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WnKeyBoard;
+			productName = WnKeyBoard;
+			productReference = 9230D53B20045D25006397FC /* WnKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9230D53320045D25006397FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = WN;
+				TargetAttributes = {
+					9230D53A20045D25006397FC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9230D53620045D25006397FC /* Build configuration list for PBXProject "WnKeyBoard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9230D53220045D25006397FC;
+			productRefGroup = 9230D53C20045D25006397FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9230D53A20045D25006397FC /* WnKeyBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9230D53920045D25006397FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9230D54B20045D25006397FC /* LaunchScreen.storyboard in Resources */,
+				9230D56220045D6D006397FC /* keyBoard.plist in Resources */,
+				9230D54820045D25006397FC /* Assets.xcassets in Resources */,
+				9230D54620045D25006397FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9230D53720045D25006397FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9230D568200460FE006397FC /* WnKeyboardFlugin.m in Sources */,
+				9230D56120045D6D006397FC /* NumPswTextField.m in Sources */,
+				9230D54320045D25006397FC /* ViewController.m in Sources */,
+				9230D56320045D6D006397FC /* PassTextFild.m in Sources */,
+				9230D56420045D6D006397FC /* PayView.m in Sources */,
+				9230D54E20045D25006397FC /* main.m in Sources */,
+				9230D56020045D6D006397FC /* PasswordTextField.m in Sources */,
+				9230D54020045D25006397FC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9230D54420045D25006397FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9230D54520045D25006397FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9230D54920045D25006397FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9230D54A20045D25006397FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9230D54F20045D25006397FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9230D55020045D25006397FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9230D55220045D25006397FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WnKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FM.WnKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9230D55320045D25006397FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WnKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FM.WnKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9230D53620045D25006397FC /* Build configuration list for PBXProject "WnKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9230D54F20045D25006397FC /* Debug */,
+				9230D55020045D25006397FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9230D55120045D25006397FC /* Build configuration list for PBXNativeTarget "WnKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9230D55220045D25006397FC /* Debug */,
+				9230D55320045D25006397FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9230D53320045D25006397FC /* Project object */;
+}
