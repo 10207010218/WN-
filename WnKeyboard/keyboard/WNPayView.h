@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PayView : UIView
+@interface WNPayView : UIView
 
 @property (nonatomic, strong)UIWebView *webView;
-- (instancetype)initWithParams:(NSDictionary *)param numList:(NSArray *)array;
+@property (nonatomic, strong)NSArray *numListArray;
+- (void)show;
 
 @end

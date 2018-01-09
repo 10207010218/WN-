@@ -10,4 +10,10 @@
 
 @interface WnKeyboardFlugin : NSObject
 
+- (void)showNumberKeyboard;
+- (void)showPayKeyboard;
+- (void)showAlphaKeyboard;
+- (void)hideKeyboard;
+- (void)removeNumKeyboard;
+
 @end

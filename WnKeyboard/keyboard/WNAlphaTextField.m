@@ -1,25 +1,22 @@
 //
-//  BCNumPswTextField.m
-//  GSWJR
+//  AlphaTextField.m
+//  WnKeyBoard
 //
-//  Created by 汪宁 on 2017/12/22.
-//  Copyright © 2017年 zt. All rights reserved.
+//  Created by 汪宁 on 2018/1/9.
+//  Copyright © 2018年 WN. All rights reserved.
 //
 
-#import "NumPswTextField.h"
-#import "WnNumInputView.h"
-
-
-@interface NumPswTextField ()<WnInputViewDelegate>
-
-@property(nonatomic, strong) WnNumInputView * wnInputView;
+#import "WNAlphaTextField.h"
+#import "WnAlphaInputView.h"
+@interface WNAlphaTextField ()<WnAlphaInputViewDelegate>
+@property(nonatomic, strong) WnAlphaInputView * wnInputView;
 @end
-
-@implementation NumPswTextField
+@implementation WNAlphaTextField
 
 - (instancetype)initWithFrame:(CGRect)frame{
     if(self = [super initWithFrame:frame]){
         _passwordStr = @"";
+        self.frame = CGRectZero;
         self.inputView = [self createInputView];
         self.inputAccessoryView = [self accessoryView];
     }
@@ -44,13 +41,13 @@
     [self resignFirstResponder];
 }
 - (UIView *)createInputView{
-
-    _wnInputView = [[WnNumInputView alloc]init];
-    _wnInputView.numDelegate =self;
+    
+    _wnInputView = [[WnAlphaInputView alloc]init];
+    _wnInputView.alphaDelegate =self;
     return _wnInputView;
 }
 
-- (void)changeText:(WnNumInputView *)inputView numString:(NSString *)numString{
+- (void)changeText:(WnAlphaInputView *)inputView numString:(NSString *)numString{
     NSLog(@"%@",numString);
     _passwordStr = numString;
 }

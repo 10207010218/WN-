@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PasswordTextField : UITextField
+@interface WNDotView : UIView
 @property (nonatomic, strong) NSMutableArray *dotArray;
 @end

@@ -8,15 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol NumPswTextFieldDelegate;
+
 
 @interface NumPswTextField : UITextField
 
 @property(nonatomic, copy)NSString * passwordStr;
-@property(nonatomic, weak)id <NumPswTextFieldDelegate>numDelegate;
 
 @end
 
-@protocol NumPswTextFieldDelegate <NSObject>
-- (void)changeText:(NumPswTextField *)textField;
-@end
+

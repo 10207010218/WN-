@@ -13,12 +13,14 @@
 		9230D54820045D25006397FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9230D54720045D25006397FC /* Assets.xcassets */; };
 		9230D54B20045D25006397FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9230D54920045D25006397FC /* LaunchScreen.storyboard */; };
 		9230D54E20045D25006397FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D54D20045D25006397FC /* main.m */; };
-		9230D56020045D6D006397FC /* PasswordTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D55520045D6C006397FC /* PasswordTextField.m */; };
+		9230D56020045D6D006397FC /* WNDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D55520045D6C006397FC /* WNDotView.m */; };
 		9230D56120045D6D006397FC /* NumPswTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D55820045D6C006397FC /* NumPswTextField.m */; };
-		9230D56220045D6D006397FC /* keyBoard.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9230D55A20045D6C006397FC /* keyBoard.plist */; };
-		9230D56320045D6D006397FC /* PassTextFild.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D55C20045D6C006397FC /* PassTextFild.m */; };
-		9230D56420045D6D006397FC /* PayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D55D20045D6D006397FC /* PayView.m */; };
+		9230D56420045D6D006397FC /* WNPayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D55D20045D6D006397FC /* WNPayView.m */; };
 		9230D568200460FE006397FC /* WnKeyboardFlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D567200460FE006397FC /* WnKeyboardFlugin.m */; };
+		9230D56B20046B61006397FC /* WnNumInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D56A20046B61006397FC /* WnNumInputView.m */; };
+		9230D56E2004A078006397FC /* WnAlphaInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D56D2004A078006397FC /* WnAlphaInputView.m */; };
+		9230D5712004AD40006397FC /* WNAlphaTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D5702004AD40006397FC /* WNAlphaTextField.m */; };
+		9230D5742004B926006397FC /* WnButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9230D5732004B926006397FC /* WnButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,17 +34,22 @@
 		9230D54A20045D25006397FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9230D54C20045D25006397FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9230D54D20045D25006397FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9230D55520045D6C006397FC /* PasswordTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordTextField.m; sourceTree = "<group>"; };
-		9230D55720045D6C006397FC /* PayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayView.h; sourceTree = "<group>"; };
+		9230D55520045D6C006397FC /* WNDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDotView.m; sourceTree = "<group>"; };
+		9230D55720045D6C006397FC /* WNPayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNPayView.h; sourceTree = "<group>"; };
 		9230D55820045D6C006397FC /* NumPswTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumPswTextField.m; sourceTree = "<group>"; };
-		9230D55920045D6C006397FC /* PasswordTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordTextField.h; sourceTree = "<group>"; };
-		9230D55A20045D6C006397FC /* keyBoard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = keyBoard.plist; sourceTree = "<group>"; };
+		9230D55920045D6C006397FC /* WNDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDotView.h; sourceTree = "<group>"; };
 		9230D55B20045D6C006397FC /* NumPswTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumPswTextField.h; sourceTree = "<group>"; };
-		9230D55C20045D6C006397FC /* PassTextFild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassTextFild.m; sourceTree = "<group>"; };
-		9230D55D20045D6D006397FC /* PayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayView.m; sourceTree = "<group>"; };
-		9230D55F20045D6D006397FC /* PassTextFild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassTextFild.h; sourceTree = "<group>"; };
+		9230D55D20045D6D006397FC /* WNPayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNPayView.m; sourceTree = "<group>"; };
 		9230D566200460FE006397FC /* WnKeyboardFlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WnKeyboardFlugin.h; sourceTree = "<group>"; };
 		9230D567200460FE006397FC /* WnKeyboardFlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WnKeyboardFlugin.m; sourceTree = "<group>"; };
+		9230D56920046B61006397FC /* WnNumInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WnNumInputView.h; sourceTree = "<group>"; };
+		9230D56A20046B61006397FC /* WnNumInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WnNumInputView.m; sourceTree = "<group>"; };
+		9230D56C2004A078006397FC /* WnAlphaInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WnAlphaInputView.h; sourceTree = "<group>"; };
+		9230D56D2004A078006397FC /* WnAlphaInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WnAlphaInputView.m; sourceTree = "<group>"; };
+		9230D56F2004AD40006397FC /* WNAlphaTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WNAlphaTextField.h; sourceTree = "<group>"; };
+		9230D5702004AD40006397FC /* WNAlphaTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNAlphaTextField.m; sourceTree = "<group>"; };
+		9230D5722004B926006397FC /* WnButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WnButton.h; sourceTree = "<group>"; };
+		9230D5732004B926006397FC /* WnButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WnButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,15 +101,20 @@
 			children = (
 				9230D55B20045D6C006397FC /* NumPswTextField.h */,
 				9230D55820045D6C006397FC /* NumPswTextField.m */,
-				9230D55A20045D6C006397FC /* keyBoard.plist */,
-				9230D55F20045D6D006397FC /* PassTextFild.h */,
-				9230D55C20045D6C006397FC /* PassTextFild.m */,
-				9230D55920045D6C006397FC /* PasswordTextField.h */,
-				9230D55520045D6C006397FC /* PasswordTextField.m */,
-				9230D55720045D6C006397FC /* PayView.h */,
-				9230D55D20045D6D006397FC /* PayView.m */,
+				9230D55920045D6C006397FC /* WNDotView.h */,
+				9230D55520045D6C006397FC /* WNDotView.m */,
+				9230D55720045D6C006397FC /* WNPayView.h */,
+				9230D55D20045D6D006397FC /* WNPayView.m */,
 				9230D566200460FE006397FC /* WnKeyboardFlugin.h */,
 				9230D567200460FE006397FC /* WnKeyboardFlugin.m */,
+				9230D56920046B61006397FC /* WnNumInputView.h */,
+				9230D56A20046B61006397FC /* WnNumInputView.m */,
+				9230D56C2004A078006397FC /* WnAlphaInputView.h */,
+				9230D56D2004A078006397FC /* WnAlphaInputView.m */,
+				9230D56F2004AD40006397FC /* WNAlphaTextField.h */,
+				9230D5702004AD40006397FC /* WNAlphaTextField.m */,
+				9230D5722004B926006397FC /* WnButton.h */,
+				9230D5732004B926006397FC /* WnButton.m */,
 			);
 			path = keyboard;
 			sourceTree = "<group>";
@@ -166,7 +178,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9230D54B20045D25006397FC /* LaunchScreen.storyboard in Resources */,
-				9230D56220045D6D006397FC /* keyBoard.plist in Resources */,
 				9230D54820045D25006397FC /* Assets.xcassets in Resources */,
 				9230D54620045D25006397FC /* Main.storyboard in Resources */,
 			);
@@ -181,11 +192,14 @@
 			files = (
 				9230D568200460FE006397FC /* WnKeyboardFlugin.m in Sources */,
 				9230D56120045D6D006397FC /* NumPswTextField.m in Sources */,
+				9230D5742004B926006397FC /* WnButton.m in Sources */,
 				9230D54320045D25006397FC /* ViewController.m in Sources */,
-				9230D56320045D6D006397FC /* PassTextFild.m in Sources */,
-				9230D56420045D6D006397FC /* PayView.m in Sources */,
+				9230D56E2004A078006397FC /* WnAlphaInputView.m in Sources */,
+				9230D56420045D6D006397FC /* WNPayView.m in Sources */,
 				9230D54E20045D25006397FC /* main.m in Sources */,
-				9230D56020045D6D006397FC /* PasswordTextField.m in Sources */,
+				9230D56020045D6D006397FC /* WNDotView.m in Sources */,
+				9230D5712004AD40006397FC /* WNAlphaTextField.m in Sources */,
+				9230D56B20046B61006397FC /* WnNumInputView.m in Sources */,
 				9230D54020045D25006397FC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
